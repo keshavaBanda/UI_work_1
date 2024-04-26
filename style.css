@@ -1,0 +1,130 @@
+html,
+body {
+    width: 100%;
+    margin: 0;
+    background-color: wheat;
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    /* font-family: "Young Serif", serif;
+    font-weight: 100;
+    font-style: normal; */
+}
+
+.title {
+    font-family: "Young Serif", serif;
+    /* text-align: center; */
+}
+
+.radius {
+    border-radius: 8px;
+}
+
+.card {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    margin: 10% auto;
+    border-radius: 20px;
+    padding: 55px;
+}
+
+.prepartion-time {
+    padding: 15px;
+    border-radius: 6px;
+    background: #FFF7FC;
+}
+
+.prepartion-time {
+    h3 {
+        margin: 0 12px;
+        color: #7F3A58;
+    }
+
+    ul {
+        /* margin: 3px; */
+        padding: 0px 30px;
+
+        li {
+            line-height: 2;
+        }
+    }
+}
+
+table {
+    border-collapse: collapse;
+    margin: 10px auto;
+    width: 90%;
+
+}
+
+tr {
+    border-bottom: 1px solid rgb(196, 178, 178);
+}
+
+td {
+    padding: 10px 0 10px 30px;
+}
+
+td:last-child {
+    color: brown;
+    font-weight: bold;
+}
+
+.ordered-list li {
+    padding-bottom: 8px;
+}
+
+ol.ordered-list ::marker {
+    font-weight: bold;
+    color: brown;
+}
+
+h2 {
+    /* font-weight: bold; */
+    color: brown;
+}
+
+.ordered-list span {
+    line-height: 1.4;
+    font-size: 14px;
+}
+
+.incredient-div ul li {
+    line-height: 1.8;
+
+    /* span {
+        padding: 12px;
+    } */
+}
+
+
+
+.incredient-div ul li ::marker {
+    color: brown;
+}
+
+h2 {
+    padding: 0 0 0 20px;
+}
+
+hr {
+    width: 90%;
+}
+
+li {
+    padding: 0 13px;
+}
+
+.nutrition span {
+    font-size: 14px;
+    padding: 0 0 0 20px;
+}
+
+.attribution{
+    text-align: center;
+    
+}
