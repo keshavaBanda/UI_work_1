@@ -3,20 +3,14 @@ body {
     width: 100%;
     margin: 0;
     background-color: wheat;
-
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-
-    /* font-family: "Young Serif", serif;
-    font-weight: 100;
-    font-style: normal; */
 }
 
 .title {
     font-family: "Young Serif", serif;
-    /* text-align: center; */
 }
 
 .radius {
@@ -45,7 +39,6 @@ body {
     }
 
     ul {
-        /* margin: 3px; */
         padding: 0px 30px;
 
         li {
@@ -58,7 +51,6 @@ table {
     border-collapse: collapse;
     margin: 10px auto;
     width: 90%;
-
 }
 
 tr {
@@ -84,7 +76,6 @@ ol.ordered-list ::marker {
 }
 
 h2 {
-    /* font-weight: bold; */
     color: brown;
 }
 
@@ -95,13 +86,7 @@ h2 {
 
 .incredient-div ul li {
     line-height: 1.8;
-
-    /* span {
-        padding: 12px;
-    } */
 }
-
-
 
 .incredient-div ul li ::marker {
     color: brown;
@@ -124,7 +109,14 @@ li {
     padding: 0 0 0 20px;
 }
 
-.attribution{
+.attribution {
     text-align: center;
-    
+}
+
+@media screen and (max-width: 376px) {
+    .card {
+        width: calc(100% - 10px);
+        margin: 0 0 20px 0;
+        padding: 5px;
+    }
 }
